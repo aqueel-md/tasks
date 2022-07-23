@@ -1,0 +1,33 @@
+.Card-Container {
+  margin: 0 10%;
+  padding: 12px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.Card {
+  margin: 12px;
+  background-color: #fbfffe;
+  width: 282px;
+  padding: 22px;
+  border-bottom: 8px solid #136f63;
+  border-radius: 20px 0;
+}
+.Category {
+  text-transform: uppercase;
+  color: #136f63;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+img {
+  max-width: 100%;
+}
+.Price {
+  font-size: 2em;
+  float: right;
+  font-weight: bold;
+}
+p {
+  padding: 12px 0;
+  font-size: 16px;
+}
